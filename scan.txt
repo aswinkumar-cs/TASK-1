@@ -1,0 +1,22 @@
+# Nmap 7.92 scan initiated Thu Oct  1 20:02:08 2026 as: nmap -sS -oN scan.txt 10.22.199.59/24
+Nmap scan report for 10.22.199.214
+Host is up (0.0080s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: AC:A7:F1:B5:76:67 (Unknown)
+
+Nmap scan report for _gateway (10.22.199.251)
+Host is up (0.0035s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 92:87:FC:78:5F:63 (Unknown)
+
+Nmap scan report for fedora (10.22.199.59)
+Host is up (0.0000030s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+7070/tcp open  realserver
+
+# Nmap done at Thu Oct  1 20:02:52 2026 -- 256 IP addresses (3 hosts up) scanned in 43.98 seconds

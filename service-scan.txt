@@ -1,0 +1,46 @@
+# Nmap 7.92 scan initiated Thu Oct  1 20:03:57 2026 as: nmap -sV -oN service-scan.txt 10.22.199.59/24
+Nmap scan report for 10.22.199.214
+Host is up (0.0092s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    SHIP 2.0
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.92%I=7%D=10/1%Time=6ABE6F89%P=x86_64-redhat-linux-gnu%r(
+SF:GetRequest,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nCon
+SF:tent-Length:\x2049\r\nContent-Type:\x20text/html\r\n\r\n<html><body><ce
+SF:nter>200\x20OK</center></body></html>")%r(HTTPOptions,83,"HTTP/1\.1\x20
+SF:200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nContent-Length:\x2049\r\nConten
+SF:t-Type:\x20text/html\r\n\r\n<html><body><center>200\x20OK</center></bod
+SF:y></html>")%r(RTSPRequest,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP
+SF:\x202\.0\r\nContent-Length:\x2049\r\nContent-Type:\x20text/html\r\n\r\n
+SF:<html><body><center>200\x20OK</center></body></html>")%r(FourOhFourRequ
+SF:est,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nContent-Le
+SF:ngth:\x2049\r\nContent-Type:\x20text/html\r\n\r\n<html><body><center>20
+SF:0\x20OK</center></body></html>")%r(GenericLines,83,"HTTP/1\.1\x20200\x2
+SF:0OK\r\nServer:\x20SHIP\x202\.0\r\nContent-Length:\x2049\r\nContent-Type
+SF::\x20text/html\r\n\r\n<html><body><center>200\x20OK</center></body></ht
+SF:ml>")%r(Help,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nC
+SF:ontent-Length:\x2049\r\nContent-Type:\x20text/html\r\n\r\n<html><body><
+SF:center>200\x20OK</center></body></html>")%r(TerminalServerCookie,83,"HT
+SF:TP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nContent-Length:\x204
+SF:9\r\nContent-Type:\x20text/html\r\n\r\n<html><body><center>200\x20OK</c
+SF:enter></body></html>")%r(SIPOptions,83,"HTTP/1\.1\x20200\x20OK\r\nServe
+SF:r:\x20SHIP\x202\.0\r\nContent-Length:\x2049\r\nContent-Type:\x20text/ht
+SF:ml\r\n\r\n<html><body><center>200\x20OK</center></body></html>");
+MAC Address: AC:A7:F1:B5:76:67 (Unknown)
+
+Nmap scan report for _gateway (10.22.199.251)
+Host is up (0.0089s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+MAC Address: 92:87:FC:78:5F:63 (Unknown)
+
+Nmap scan report for fedora (10.22.199.59)
+Host is up (0.0000030s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE         VERSION
+7070/tcp open  ssl/realserver?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct  1 20:07:59 2026 -- 256 IP addresses (3 hosts up) scanned in 241.89 seconds
